@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "SupervisoryServiceLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SupervisoryServiceLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SupervisoryServiceLibrary.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SupervisoryServiceLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SupervisoryServiceLibrary/SupervisoryServiceLibrary.csproj",
+      "msbuildProject": "../SupervisoryServiceLibrary/SupervisoryServiceLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "SupervisoryServiceLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\avale1648\\.nuget\\packages\\": {}
@@ -33,7 +55,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\avale1648\\source\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj": {
+              "projectPath": "C:\\Users\\avale1648\\source\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

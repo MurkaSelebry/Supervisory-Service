@@ -1,0 +1,17 @@
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\SupervisoryServiceLibrary.exe
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\SupervisoryServiceLibrary.deps.json
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\SupervisoryServiceLibrary.runtimeconfig.json
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\SupervisoryServiceLibrary.dll
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\SupervisoryServiceLibrary.pdb
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.csproj.AssemblyReference.cache
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.Form1.resources
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.csproj.GenerateResource.cache
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.AssemblyInfoInputs.cache
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.AssemblyInfo.cs
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.dll
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\refint\SupervisoryServiceLibrary.dll
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.pdb
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.genruntimeconfig.cache
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\ref\SupervisoryServiceLibrary.dll

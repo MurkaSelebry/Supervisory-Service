@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "SupervisoryServiceInterface/1.0.0": {
-        "dependencies": {
-          "SupervisoryServiceLibrary": "1.0.0"
-        },
-        "runtime": {
-          "SupervisoryServiceInterface.dll": {}
-        }
-      },
       "SupervisoryServiceLibrary/1.0.0": {
         "runtime": {
           "SupervisoryServiceLibrary.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "SupervisoryServiceInterface/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "SupervisoryServiceLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
