@@ -38,3 +38,4 @@ C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceI
 C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\bin\Debug\net6.0-windows\SupervisoryServiceLibrary.dll
 C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\bin\Debug\net6.0-windows\SupervisoryServiceLibrary.pdb
 C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\obj\Debug\net6.0-windows\SupervisoryServiceInterface.csproj.CopyComplete
+C:\Users\avale1648\source\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\obj\Debug\net6.0-windows\SupervisoryServiceInterface.SignInForm.resources

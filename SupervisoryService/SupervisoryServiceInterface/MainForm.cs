@@ -3,19 +3,23 @@ namespace SupervisoryServiceInterface
 {
     public partial class MainForm : Form
     {
+        private User me = new User();
         private Table currentTable = Table.Buildings;
+        public MainForm(User user)
+        {
+            InitializeComponent();
+            me = user;
+            SetVisibility();
+        }
         public MainForm()
         {
-            SupervisoryServiceLibrary.Tables.Fill();
             InitializeComponent();
+            SetVisibility();
         }
         private void MainForm_Load(object sender, EventArgs e)
         {
             listView1.ColumnClick += ColumnClick;
             ListViewWorker.Set(listView1, Table.Buildings);
-            comboBoxTable.Items.Add("Объекты");
-            comboBoxTable.Items.Add("Решения");
-            comboBoxTable.Items.Add("Пользователи");
         }
         private void ColumnClick(object sender, ColumnClickEventArgs e)
         {
@@ -34,6 +38,21 @@ namespace SupervisoryServiceInterface
         private void MainForm_Resize(object sender, EventArgs e)
         {
             ListViewWorker.Set(listView1, currentTable);
+        }
+        private void SetVisibility()
+        {
+            comboBoxTable.Items.Add("Объекты");
+            comboBoxTable.Items.Add("Решения");
+            if (me.Role == Role.Reader)
+            {
+                buttonAdd.Visible= false;
+                buttonEdit.Visible= false;
+                buttonDelete.Visible = false;
+            }
+            else if(me.Role == Role.Administrator)
+            {
+                comboBoxTable.Items.Add("Пользователи");
+            }
         }
     }
 }
