@@ -68,6 +68,7 @@
             this.buttonView.Name = "buttonView";
             this.buttonView.Size = new System.Drawing.Size(68, 22);
             this.buttonView.Text = "Просмотр";
+            this.buttonView.Click += new System.EventHandler(this.buttonView_Click);
             // 
             // buttonAdd
             // 

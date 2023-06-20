@@ -1,6 +1,6 @@
 ﻿namespace SupervisoryServiceLibrary
 {
-    partial class Form1
+    partial class BuildingAddForm
     {
         /// <summary>
         ///  Required designer variable.

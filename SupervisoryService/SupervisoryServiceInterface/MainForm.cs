@@ -54,5 +54,14 @@ namespace SupervisoryServiceInterface
                 comboBoxTable.Items.Add("Пользователи");
             }
         }
+        private void buttonView_Click(object sender, EventArgs e)
+        {
+            if(currentTable == Table.Buildings)
+            {
+                Building selected = Tables.buildings.Find(building => building.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
+                if (selected != null)
+                    new BuildingViewForm(selected).ShowDialog();
+            }
+        }
     }
 }

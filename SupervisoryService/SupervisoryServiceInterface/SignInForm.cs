@@ -19,7 +19,7 @@ namespace SupervisoryServiceInterface
         }
         private void buttonSignIn_Click(object sender, EventArgs e)
         {
-            if(textBoxName.Text != string.Empty && textBoxPassword.Text != string.Empty) 
+            if(!string.IsNullOrEmpty(textBoxName.Text) && !string.IsNullOrEmpty(textBoxPassword.Text)) 
             {
                 me = Tables.users.Find(user => user.Username == textBoxName.Text && user.Password == textBoxPassword.Text);
                 if(me != null)
@@ -28,10 +28,10 @@ namespace SupervisoryServiceInterface
                     Close();
                 }
                 else
-                {
                     MessageBox.Show("Неверное имя пользователя и/или пароль");
-                }
             }
+            else
+                MessageBox.Show("Неверное имя пользователя и/или пароль");
         }
     }
 }

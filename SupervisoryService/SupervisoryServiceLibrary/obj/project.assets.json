@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\avale1648\\source\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
+      "projectUniqueName": "D:\\Repositories\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
       "projectName": "SupervisoryServiceLibrary",
-      "projectPath": "C:\\Users\\avale1648\\source\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
+      "projectPath": "D:\\Repositories\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
       "packagesPath": "C:\\Users\\avale1648\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\avale1648\\source\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\obj\\",
+      "outputPath": "D:\\Repositories\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\avale1648\\AppData\\Roaming\\NuGet\\NuGet.Config",

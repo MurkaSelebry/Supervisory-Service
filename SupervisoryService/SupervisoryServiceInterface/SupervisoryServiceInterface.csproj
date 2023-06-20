@@ -12,4 +12,10 @@
     <ProjectReference Include="..\SupervisoryServiceLibrary\SupervisoryServiceLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="SignInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>
