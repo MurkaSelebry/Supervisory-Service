@@ -11,6 +11,6 @@
         public string Material { get; set; } = string.Empty;
         public int Floors { get; set; } = 0;
         public string Responsible { get; set; } = string.Empty;
-        public Image Image { get; set; } = null;
+        public string Image { get; set; } = string.Empty;
     }
 }

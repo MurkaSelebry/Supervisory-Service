@@ -1,4 +1,6 @@
 using SupervisoryServiceLibrary;
+using System.Data;
+
 namespace SupervisoryServiceInterface
 {
     public partial class MainForm : Form
@@ -19,7 +21,7 @@ namespace SupervisoryServiceInterface
         private void MainForm_Load(object sender, EventArgs e)
         {
             listView1.ColumnClick += ColumnClick;
-            ListViewWorker.Set(listView1, Table.Buildings);
+            ListViewWorker.Set(listView1, currentTable);
         }
         private void ColumnClick(object sender, ColumnClickEventArgs e)
         {
@@ -60,7 +62,23 @@ namespace SupervisoryServiceInterface
             {
                 Building selected = Tables.buildings.Find(building => building.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
                 if (selected != null)
-                    new BuildingViewForm(selected).ShowDialog();
+                    new BuildingViewForm(selected).Show();
+            }
+        }
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            if (currentTable == Table.Buildings)
+                new BuildingAddForm("add", 0).Show();
+            ListViewWorker.Set(listView1, currentTable);
+        }
+        private void buttonEdit_Click(object sender, EventArgs e)
+        {
+            if(currentTable == Table.Buildings)
+            {
+                Building selected = Tables.buildings.Find(building => building.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
+                if (selected != null)
+                    new BuildingAddForm("edit", selected.Id).Show();
+                ListViewWorker.Set(listView1, currentTable);
             }
         }
     }

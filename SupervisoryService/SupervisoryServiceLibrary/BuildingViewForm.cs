@@ -26,7 +26,8 @@ namespace SupervisoryServiceLibrary
             labelMaterial.Text += " " + building.Material;
             labelFloors.Text += " " + building.Floors.ToString();
             labelResponsible.Text += " " + building.Responsible;
-            pictureBox1.Image = building.Image;
+            //if (string.IsNullOrEmpty(building.Image) == false)
+            //    pictureBox1.Image = Image.FromFile(building.Image);
         }
     }
 }
