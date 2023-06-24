@@ -5,7 +5,12 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupervisoryServiceInterface", "SupervisoryServiceInterface\SupervisoryServiceInterface.csproj", "{BD37641D-AE40-4007-B12E-2EE9EB4E9A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupervisoryServiceLibrary", "SupervisoryServiceLibrary\SupervisoryServiceLibrary.csproj", "{E6281CE6-5E0F-4A64-830C-BF27F638796B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupervisoryServiceLibrary", "SupervisoryServiceLibrary\SupervisoryServiceLibrary.csproj", "{E6281CE6-5E0F-4A64-830C-BF27F638796B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{0E363B1E-B166-495C-AD3A-C0427CAC31F8}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
