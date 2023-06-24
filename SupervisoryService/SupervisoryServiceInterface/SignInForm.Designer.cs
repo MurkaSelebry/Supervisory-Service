@@ -87,6 +87,7 @@
             this.buttonSignUp.TabIndex = 5;
             this.buttonSignUp.Text = "Регистрация";
             this.buttonSignUp.UseVisualStyleBackColor = true;
+            this.buttonSignUp.Click += new System.EventHandler(this.buttonSignUp_Click);
             // 
             // SignInForm
             // 

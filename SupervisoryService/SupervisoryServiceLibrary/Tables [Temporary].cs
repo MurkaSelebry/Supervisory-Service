@@ -22,8 +22,8 @@ namespace SupervisoryServiceLibrary
         public static List<User> users = new List<User>
         {
             new User { Id = 1, Email = "qwerty@qwerty.qwerty", Username = "qwertyAdmin", Password = "qwertyAdmin", Role = Role.Administrator },
-            new User { Id = 1, Email = "qwerty@qwerty.qwerty", Username = "qwertyWriter", Password = "qwertyWriter", Role = Role.Writer },
-            new User { Id = 1, Email = "qwerty@qwerty.qwerty", Username = "qwertyReader", Password = "qwertyReader", Role = Role.Reader }
+            new User { Id = 2, Email = "qwerty@qwerty.qwerty", Username = "qwertyWriter", Password = "qwertyWriter", Role = Role.Writer },
+            new User { Id = 3, Email = "qwerty@qwerty.qwerty", Username = "qwertyReader", Password = "qwertyReader", Role = Role.Reader }
         };
     }
 }

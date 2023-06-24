@@ -12,7 +12,7 @@ namespace SupervisoryServiceInterface
 {
     public partial class SignInForm : Form
     {
-        public User me = new User();
+        public User? me = new User();
         public SignInForm()
         {
             InitializeComponent();
@@ -32,6 +32,11 @@ namespace SupervisoryServiceInterface
             }
             else
                 MessageBox.Show("Неверное имя пользователя и/или пароль");
+        }
+
+        private void buttonSignUp_Click(object sender, EventArgs e)
+        {
+            new SignUpForm("add", new User()).ShowDialog();
         }
     }
 }

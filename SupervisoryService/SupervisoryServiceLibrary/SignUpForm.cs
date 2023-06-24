@@ -23,13 +23,13 @@ namespace SupervisoryServiceLibrary
             this.mode = mode;
             this.user = user;
             InitializeComponent();
-            if (mode == "add")
+            if (mode == Mode.Adding)
             {
                 button.Text = "Зарегистрироваться";
                 this.Text = "Регистрация";
                 groupBox1.Visible = false;
             }
-            else if (mode == "edit")
+            else if (mode == Mode.Editing)
             {
                 button.Text = "Редактирование существующего  пользователя";
                 this.Text = "Сохранить";
@@ -59,7 +59,7 @@ namespace SupervisoryServiceLibrary
         }
         private void button_Click(object sender, EventArgs e)
         {
-            if (mode == "add")
+            if (mode == Mode.Adding)
             {
                 if (textBoxPassword.Text == textBoxConfirmation.Text)
                 {
@@ -68,8 +68,8 @@ namespace SupervisoryServiceLibrary
                         Id = Tables.users.Last().Id + 1,
                         Username = textBoxUsername.Text,
                         Password = textBoxPassword.Text,
-                        Role = role, Email = textBoxEmail.Text,
-                        Phone = textBoxPhone,
+                        Role = Role.Reader, Email = textBoxEmail.Text,
+                        Phone = textBoxPhone.Text,
                         Surname = textBoxSurname.Text,
                         Name = textBoxName.Text,
                         Patronymic = textBoxPatronymic.Text
@@ -80,19 +80,26 @@ namespace SupervisoryServiceLibrary
                     MessageBox.Show("Пароли не совпадают", string.Empty, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            else if(mode == "edit")
+            else if(mode == Mode.Editing)
             {
                 if (textBoxPassword.Text == textBoxConfirmation.Text)
                 {
+                    int role = 0;
+                    if (radioButton1.Checked)
+                        role = 0;
+                    else if (radioButton2.Checked)
+                        role = 1;
+                    else
+                        role = 2;
                     Tables.users.Remove(user);
                     Tables.users.Add(new User
                     {
-                        Id = Tables.users.Last().Id + 1,
+                        Id = user.Id,
                         Username = textBoxUsername.Text,
                         Password = textBoxPassword.Text,
-                        Role = role,
+                        Role = (Role)role,
                         Email = textBoxEmail.Text,
-                        Phone = textBoxPhone,
+                        Phone = textBoxPhone.Text,
                         Surname = textBoxSurname.Text,
                         Name = textBoxName.Text,
                         Patronymic = textBoxPatronymic.Text
@@ -103,6 +110,7 @@ namespace SupervisoryServiceLibrary
                     MessageBox.Show("Пароли не совпадают", string.Empty, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            Close();
         }
     }
 }
