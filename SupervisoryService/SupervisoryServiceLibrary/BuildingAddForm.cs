@@ -20,6 +20,17 @@ namespace SupervisoryServiceLibrary
             }
             else if (action == "edit")
             {
+                int index = Tables.buildings.FindIndex(building => building.Id == id);
+                if (index >= 0)
+                {
+                    textBoxAdress.Text = Tables.buildings[index].Adress;
+                    textBoxCadastral.Text = Tables.buildings[index].Cadastral;
+                    numericUpDownSquare.Value = (decimal)Tables.buildings[index].Square;
+                    dateTimePicker1.Value = Tables.buildings[index].Date;
+                    textBoxMaterial.Text = Tables.buildings[index].Material;
+                    numericUpDownFloors.Value = (decimal)Tables.buildings[index].Floors;
+                    textBoxResponsible.Text = Tables.buildings[index].Responsible;
+                }
                 button.Text = "Сохранить";
                 button.Text = "Редактирование существующего обьекта";
             }
@@ -43,25 +54,25 @@ namespace SupervisoryServiceLibrary
             }
             else if (action == "edit")
             {
-                int index = Tables.buildings.FindIndex(building => building.Id == id);
-                if (index >= 0)
+                //Building: Id, Adress, Cadastral, Square, Date, Material, Floors, Responsible
+                Building removable = Tables.buildings.Find(building => building.Id == id);
+                if (removable != null)
                 {
-                    if (!string.IsNullOrEmpty(textBoxAdress.Text))
-                        Tables.buildings[index].Adress = textBoxAdress.Text;
-                    if (!string.IsNullOrEmpty(textBoxCadastral.Text))
-                        Tables.buildings[index].Cadastral = textBoxCadastral.Text;
-                    if (numericUpDownSquare.Value > 0)
-                        Tables.buildings[index].Square = (float)numericUpDownSquare.Value;
-                    if (dateTimePicker1.Value != null)
-                        Tables.buildings[index].Date = dateTimePicker1.Value;
-                    if(!string.IsNullOrEmpty(textBoxMaterial.Text))
-                        Tables.buildings[index].Material = textBoxMaterial.Text;
-                    if (numericUpDownFloors.Value > 0)
-                        Tables.buildings[index].Floors = (int)numericUpDownFloors.Value;
-                    if(!string.IsNullOrEmpty(textBoxResponsible.Text))
-                        Tables.buildings[index].Responsible = textBoxResponsible.Text;
+                    Tables.buildings.Remove(removable);
+                    Tables.buildings.Add(new Building
+                    {
+                        Id = id,
+                        Adress = textBoxAdress.Text,
+                        Cadastral = textBoxCadastral.Text,
+                        Square = (float)numericUpDownSquare.Value,
+                        Date = dateTimePicker1.Value,
+                        Material = textBoxMaterial.Text,
+                        Floors = (int)numericUpDownFloors.Value,
+                        Responsible = textBoxResponsible.Text
+                    });
                 }
             }
         }
+
     }
 }
