@@ -33,3 +33,4 @@ D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.pdb
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.genruntimeconfig.cache
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\ref\SupervisoryServiceLibrary.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.SolutionViewForm.resources
