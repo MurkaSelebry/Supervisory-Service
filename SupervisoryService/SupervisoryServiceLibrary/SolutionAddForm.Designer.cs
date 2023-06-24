@@ -154,6 +154,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxTitle);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "SolutionAddForm";
             this.Text = "SolutionAddForm";
             this.ResumeLayout(false);
