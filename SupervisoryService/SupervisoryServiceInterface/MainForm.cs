@@ -34,7 +34,10 @@ namespace SupervisoryServiceInterface
             else if (comboBoxTable.SelectedIndex == 1)
                 currentTable = Table.Solutions;
             else if (comboBoxTable.SelectedIndex == 2)
+            {
                 currentTable = Table.Users;
+                buttonView.Visible = false;
+            }
             ListViewWorker.Set(listView1, currentTable);
         }
         private void MainForm_Resize(object sender, EventArgs e)

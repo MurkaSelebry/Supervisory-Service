@@ -61,19 +61,23 @@ namespace SupervisoryServiceLibrary
                         }
                         break;
                     }
-                //User: Id, Email, Username, Role
+                //User: Id, Username, Password, Role, Email, Phone, Surname, Lastname, Patronymic
                 //Password не отображается
                 case Table.Users:
                     {
-                        columns = 5 - 1 - 1; //общее кол-во столбцов - шесть, вычитаем единицу, т.к. размер для столбца "Ид" фиксированный, вычитаем единицу, т.к.
+                        columns = 9 - 1 - 1; //общее кол-во столбцов - шесть, вычитаем единицу, т.к. размер для столбца "Ид" фиксированный, вычитаем единицу, т.к.
                         //Password не отображается;
-                        width = width = (listView.Size.Width - idWidth) / columns;
+                        width = (listView.Size.Width - idWidth) / columns;
                         listView.Columns.Add("Имя", width);
+                        listView.Columns.Add("Роль", width);
                         listView.Columns.Add("Электронная почта", width);
-                        listView.Columns.Add("Роль");
+                        listView.Columns.Add("Телефон", width);
+                        listView.Columns.Add("Фамилия", width);
+                        listView.Columns.Add("Имя", width);
+                        listView.Columns.Add("Отчество", width);
                         foreach (var item in Tables.users)
                         {
-                            string[] strings = new string[] { item.Id.ToString(), item.Username, item.Email, item.Role.ToString(),};
+                            string[] strings = new string[] { item.Id.ToString(), item.Username, item.Role.ToString(), item.Email, item.Phone, item.Surname, item.Name, item.Patronymic};
                             listView.Items.Add(new ListViewItem(strings));
                         }
                         break;

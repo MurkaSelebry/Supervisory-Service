@@ -12,7 +12,7 @@ namespace SupervisoryServiceLibrary
     }
     public class User
     {
-        //User: Id, Email, Username, Password, Role
+        //User: Id, Username, Password, Role, Email, Phone, Surname, Lastname, Patronymic
         public int Id { get; set; } = 0;
         public string Username { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
