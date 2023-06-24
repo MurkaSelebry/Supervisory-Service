@@ -6,10 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 namespace SupervisoryServiceLibrary
 {
-    public enum Role
-    {
-        Administrator, Writer, Reader
-    }
     public class User
     {
         //User: Id, Username, Password, Role, Email, Phone, Surname, Lastname, Patronymic

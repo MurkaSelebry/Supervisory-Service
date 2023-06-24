@@ -7,10 +7,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 namespace SupervisoryServiceLibrary
 {
-    public enum Table
-    {
-        Buildings, Solutions, Users
-    }
     public class ListViewWorker
     {
         private bool isDescending = false;
