@@ -7,6 +7,9 @@
     <Compile Update="BuildingViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SolutionAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SolutionViewForm.cs">
       <SubType>Form</SubType>
     </Compile>

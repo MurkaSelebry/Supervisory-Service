@@ -99,6 +99,7 @@
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(55, 22);
             this.buttonDelete.Text = "Удалить";
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // listView1
             // 

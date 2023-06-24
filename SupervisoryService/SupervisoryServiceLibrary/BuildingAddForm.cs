@@ -32,7 +32,7 @@ namespace SupervisoryServiceLibrary
                     textBoxResponsible.Text = Tables.buildings[index].Responsible;
                 }
                 button.Text = "Сохранить";
-                button.Text = "Редактирование существующего обьекта";
+                this.Text = "Редактирование существующего обьекта";
             }
         }
         private void button_Click(object sender, EventArgs e)
@@ -72,6 +72,7 @@ namespace SupervisoryServiceLibrary
                     });
                 }
             }
+            Close();
         }
 
     }

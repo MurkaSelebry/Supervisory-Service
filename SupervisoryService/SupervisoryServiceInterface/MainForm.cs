@@ -64,11 +64,19 @@ namespace SupervisoryServiceInterface
                 if (selected != null)
                     new BuildingViewForm(selected).Show();
             }
+            else if(currentTable == Table.Solutions)
+            {
+                Solution selected = Tables.solutions.Find(solution => solution.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
+                if(selected != null)
+                    new SolutionViewForm(selected).Show();
+            }
         }
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             if (currentTable == Table.Buildings)
-                new BuildingAddForm("add", 0).Show();
+                new BuildingAddForm("add", 0).ShowDialog();
+            else if (currentTable == Table.Solutions)
+                new SolutionAddForm("add", 0).ShowDialog();
             ListViewWorker.Set(listView1, currentTable);
         }
         private void buttonEdit_Click(object sender, EventArgs e)
@@ -77,9 +85,37 @@ namespace SupervisoryServiceInterface
             {
                 Building selected = Tables.buildings.Find(building => building.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
                 if (selected != null)
-                    new BuildingAddForm("edit", selected.Id).Show();
-                ListViewWorker.Set(listView1, currentTable);
+                    new BuildingAddForm("edit", selected.Id).ShowDialog();
             }
+            else if(currentTable == Table.Solutions)
+            {
+                Solution selected = Tables.solutions.Find(solution => solution.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
+                if (selected != null)
+                    new SolutionAddForm("edit", selected.Id).ShowDialog();
+            }
+            ListViewWorker.Set(listView1, currentTable);
+        }
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            if (currentTable == Table.Buildings)
+            {
+                Building selected = Tables.buildings.Find(building => building.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
+                if (selected != null)
+                    Tables.buildings.Remove(selected);
+            }
+            else if (currentTable == Table.Solutions)
+            {
+                Solution selected = Tables.solutions.Find(solution => solution.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
+                if (selected != null)
+                    Tables.solutions.Remove(selected);
+            }
+            else if(currentTable == Table.Users)
+            {
+                User selected = Tables.users.Find(user => user.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
+                if (selected != null)
+                    Tables.users.Remove(selected);
+            }
+            ListViewWorker.Set(listView1, currentTable);
         }
     }
 }
