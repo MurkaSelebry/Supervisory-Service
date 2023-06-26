@@ -58,6 +58,7 @@
             this.comboBoxTable.Name = "comboBoxTable";
             this.comboBoxTable.Size = new System.Drawing.Size(121, 25);
             this.comboBoxTable.Text = "Таблица...";
+            this.comboBoxTable.SelectedIndexChanged += new System.EventHandler(this.comboBoxTable_SelectedIndexChanged);
             // 
             // buttonView
             // 
@@ -67,6 +68,7 @@
             this.buttonView.Name = "buttonView";
             this.buttonView.Size = new System.Drawing.Size(68, 22);
             this.buttonView.Text = "Просмотр";
+            this.buttonView.Click += new System.EventHandler(this.buttonView_Click);
             // 
             // buttonAdd
             // 
@@ -76,6 +78,7 @@
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(63, 22);
             this.buttonAdd.Text = "Добавить";
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonEdit
             // 
@@ -86,6 +89,7 @@
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(65, 22);
             this.buttonEdit.Text = "Изменить";
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonDelete
             // 
@@ -95,6 +99,7 @@
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(55, 22);
             this.buttonDelete.Text = "Удалить";
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // listView1
             // 
@@ -117,7 +122,9 @@
             this.Controls.Add(this.toolStrip1);
             this.Name = "MainForm";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.Resize += new System.EventHandler(this.MainForm_Resize);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
