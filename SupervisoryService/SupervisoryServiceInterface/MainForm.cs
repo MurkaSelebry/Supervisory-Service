@@ -34,10 +34,11 @@ namespace SupervisoryServiceInterface
             else if (comboBoxTable.SelectedIndex == 1)
                 currentTable = Table.Solutions;
             else if (comboBoxTable.SelectedIndex == 2)
-            {
                 currentTable = Table.Users;
+            if (currentTable == Table.Users)
                 buttonView.Visible = false;
-            }
+            else
+                buttonView.Visible = true;
             ListViewWorker.Set(listView1, currentTable);
         }
         private void MainForm_Resize(object sender, EventArgs e)
@@ -50,27 +51,27 @@ namespace SupervisoryServiceInterface
             comboBoxTable.Items.Add("Решения");
             if (me.Role == Role.Reader)
             {
-                buttonAdd.Visible= false;
-                buttonEdit.Visible= false;
+                buttonAdd.Visible = false;
+                buttonEdit.Visible = false;
                 buttonDelete.Visible = false;
             }
-            else if(me.Role == Role.Administrator)
+            else if (me.Role == Role.Administrator)
             {
                 comboBoxTable.Items.Add("Пользователи");
             }
         }
         private void buttonView_Click(object sender, EventArgs e)
         {
-            if(currentTable == Table.Buildings)
+            if (currentTable == Table.Buildings)
             {
                 Building? selected = Tables.buildings.Find(building => building.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
                 if (selected != null)
                     new BuildingViewForm(selected).Show();
             }
-            else if(currentTable == Table.Solutions)
+            else if (currentTable == Table.Solutions)
             {
                 Solution? selected = Tables.solutions.Find(solution => solution.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
-                if(selected != null)
+                if (selected != null)
                     new SolutionViewForm(selected).Show();
             }
         }
@@ -84,19 +85,19 @@ namespace SupervisoryServiceInterface
         }
         private void buttonEdit_Click(object sender, EventArgs e)
         {
-            if(currentTable == Table.Buildings)
+            if (currentTable == Table.Buildings)
             {
                 Building? selected = Tables.buildings.Find(building => building.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
                 if (selected != null)
                     new BuildingAddForm(Mode.Editing, selected).ShowDialog();
             }
-            else if(currentTable == Table.Solutions)
+            else if (currentTable == Table.Solutions)
             {
                 Solution? selected = Tables.solutions.Find(solution => solution.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
                 if (selected != null)
                     new SolutionAddForm(Mode.Editing, selected).ShowDialog();
             }
-            else if(currentTable == Table.Users)
+            else if (currentTable == Table.Users)
             {
                 User? selected = Tables.users.Find(user => user.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
                 if (selected != null)
@@ -118,7 +119,7 @@ namespace SupervisoryServiceInterface
                 if (selected != null)
                     Tables.solutions.Remove(selected);
             }
-            else if(currentTable == Table.Users)
+            else if (currentTable == Table.Users)
             {
                 User? selected = Tables.users.Find(user => user.Id == int.Parse(listView1.SelectedItems[0].SubItems[0].Text));
                 if (selected != null)
