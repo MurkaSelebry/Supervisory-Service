@@ -46,9 +46,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.button = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -186,7 +186,7 @@
             // 
             this.button.Location = new System.Drawing.Point(12, 250);
             this.button.Name = "button";
-            this.button.Size = new System.Drawing.Size(125, 23);
+            this.button.Size = new System.Drawing.Size(150, 23);
             this.button.TabIndex = 34;
             this.button.Text = "button1";
             this.button.UseVisualStyleBackColor = true;
@@ -197,13 +197,23 @@
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Enabled = false;
             this.groupBox1.Location = new System.Drawing.Point(12, 188);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(412, 56);
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Роль";
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(205, 22);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(112, 19);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Администратор";
+            this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
@@ -226,17 +236,6 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Наблюдатель";
             this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(205, 22);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(112, 19);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Администратор";
-            this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // SignUpForm
             // 
