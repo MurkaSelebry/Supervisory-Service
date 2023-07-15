@@ -130,5 +130,10 @@ namespace SupervisoryServiceInterface
             }
             ListViewWorker.Set(listView1, currentTable);
         }
+
+        private void toolStripButtonSearch_Click(object sender, EventArgs e)
+        {
+            ListViewWorker.Set(listView1, currentTable, ListViewWorker.Find(currentTable, toolStripTextBox1.Text));
+        }
     }
 }

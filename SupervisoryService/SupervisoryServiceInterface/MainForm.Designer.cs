@@ -36,6 +36,8 @@
             this.buttonEdit = new System.Windows.Forms.ToolStripButton();
             this.buttonDelete = new System.Windows.Forms.ToolStripButton();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripButtonSearch = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +48,9 @@
             this.buttonView,
             this.buttonAdd,
             this.buttonEdit,
-            this.buttonDelete});
+            this.buttonDelete,
+            this.toolStripTextBox1,
+            this.toolStripButtonSearch});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 25);
@@ -113,6 +117,21 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             // 
+            // toolStripTextBox1
+            // 
+            this.toolStripTextBox1.Name = "toolStripTextBox1";
+            this.toolStripTextBox1.Size = new System.Drawing.Size(100, 25);
+            // 
+            // toolStripButtonSearch
+            // 
+            this.toolStripButtonSearch.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonSearch.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonSearch.Image")));
+            this.toolStripButtonSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonSearch.Name = "toolStripButtonSearch";
+            this.toolStripButtonSearch.Size = new System.Drawing.Size(46, 22);
+            this.toolStripButtonSearch.Text = "Поиск";
+            this.toolStripButtonSearch.Click += new System.EventHandler(this.toolStripButtonSearch_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -141,5 +160,7 @@
         private ToolStripButton buttonEdit;
         private ToolStripButton buttonDelete;
         private ListView listView1;
+        private ToolStripTextBox toolStripTextBox1;
+        private ToolStripButton toolStripButtonSearch;
     }
 }
