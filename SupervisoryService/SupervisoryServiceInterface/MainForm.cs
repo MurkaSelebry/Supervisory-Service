@@ -135,5 +135,15 @@ namespace SupervisoryServiceInterface
         {
             ListViewWorker.Set(listView1, currentTable, ListViewWorker.Find(currentTable, toolStripTextBox1.Text));
         }
+
+        private void toolStripButtonCalendar_Click(object sender, EventArgs e)
+        {
+            new Calendar().Show();
+        }
+
+        private void toolStripButtonFilter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

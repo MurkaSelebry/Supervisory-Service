@@ -12,4 +12,9 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\avale1648\.nuget\packages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSyncfusion_Shared_Base Condition=" '$(PkgSyncfusion_Shared_Base)' == '' ">C:\Users\avale1648\.nuget\packages\syncfusion.shared.base\22.1.39</PkgSyncfusion_Shared_Base>
+    <PkgSyncfusion_Core_WinForms Condition=" '$(PkgSyncfusion_Core_WinForms)' == '' ">C:\Users\avale1648\.nuget\packages\syncfusion.core.winforms\22.1.39</PkgSyncfusion_Core_WinForms>
+    <PkgSyncfusion_SfInput_WinForms Condition=" '$(PkgSyncfusion_SfInput_WinForms)' == '' ">C:\Users\avale1648\.nuget\packages\syncfusion.sfinput.winforms\22.1.39</PkgSyncfusion_SfInput_WinForms>
+  </PropertyGroup>
 </Project>

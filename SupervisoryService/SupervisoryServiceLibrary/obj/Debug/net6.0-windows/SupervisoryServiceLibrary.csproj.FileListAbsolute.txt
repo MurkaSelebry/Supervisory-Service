@@ -36,3 +36,9 @@ D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.SolutionViewForm.resources
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.SolutionAddForm.resources
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.SignUpForm.resources
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\Syncfusion.Core.WinForms.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\Syncfusion.Licensing.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\Syncfusion.SfInput.WinForms.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\bin\Debug\net6.0-windows\Syncfusion.Shared.Base.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.Calendar.resources
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceLibrary\obj\Debug\net6.0-windows\SupervisoryServiceLibrary.csproj.CopyComplete

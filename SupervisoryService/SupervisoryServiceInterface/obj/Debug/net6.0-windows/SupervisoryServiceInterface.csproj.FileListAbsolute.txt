@@ -63,3 +63,7 @@ D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\o
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\obj\Debug\net6.0-windows\SupervisoryServiceInterface.pdb
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\obj\Debug\net6.0-windows\SupervisoryServiceInterface.genruntimeconfig.cache
 D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\obj\Debug\net6.0-windows\ref\SupervisoryServiceInterface.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\bin\Debug\net6.0-windows\Syncfusion.Core.WinForms.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\bin\Debug\net6.0-windows\Syncfusion.Licensing.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\bin\Debug\net6.0-windows\Syncfusion.SfInput.WinForms.dll
+D:\Repositories\TeamDevelopment\SupervisoryService\SupervisoryServiceInterface\bin\Debug\net6.0-windows\Syncfusion.Shared.Base.dll

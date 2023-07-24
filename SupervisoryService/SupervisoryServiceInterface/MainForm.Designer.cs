@@ -37,7 +37,9 @@
             this.buttonDelete = new System.Windows.Forms.ToolStripButton();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripButtonSearch = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonCalendar = new System.Windows.Forms.ToolStripButton();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.toolStripButtonFilter = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,8 +51,10 @@
             this.buttonAdd,
             this.buttonEdit,
             this.buttonDelete,
+            this.toolStripButtonFilter,
             this.toolStripTextBox1,
-            this.toolStripButtonSearch});
+            this.toolStripButtonSearch,
+            this.toolStripButtonCalendar});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(800, 25);
@@ -121,6 +125,16 @@
             this.toolStripButtonSearch.Text = "Поиск";
             this.toolStripButtonSearch.Click += new System.EventHandler(this.toolStripButtonSearch_Click);
             // 
+            // toolStripButtonCalendar
+            // 
+            this.toolStripButtonCalendar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonCalendar.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonCalendar.Image")));
+            this.toolStripButtonCalendar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonCalendar.Name = "toolStripButtonCalendar";
+            this.toolStripButtonCalendar.Size = new System.Drawing.Size(120, 22);
+            this.toolStripButtonCalendar.Text = "Календарь событий";
+            this.toolStripButtonCalendar.Click += new System.EventHandler(this.toolStripButtonCalendar_Click);
+            // 
             // listView1
             // 
             this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -132,6 +146,16 @@
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // toolStripButtonFilter
+            // 
+            this.toolStripButtonFilter.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButtonFilter.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonFilter.Image")));
+            this.toolStripButtonFilter.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonFilter.Name = "toolStripButtonFilter";
+            this.toolStripButtonFilter.Size = new System.Drawing.Size(61, 22);
+            this.toolStripButtonFilter.Text = "Фильтры";
+            this.toolStripButtonFilter.Click += new System.EventHandler(this.toolStripButtonFilter_Click);
             // 
             // MainForm
             // 
@@ -163,5 +187,7 @@
         private ListView listView1;
         private ToolStripTextBox toolStripTextBox1;
         private ToolStripButton toolStripButtonSearch;
+        private ToolStripButton toolStripButtonCalendar;
+        private ToolStripButton toolStripButtonFilter;
     }
 }
