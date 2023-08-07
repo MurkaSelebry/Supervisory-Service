@@ -1,5 +1,6 @@
 using SupervisoryServiceLibrary;
 using System.Data;
+using System.Drawing.Design;
 
 namespace SupervisoryServiceInterface
 {
@@ -143,7 +144,20 @@ namespace SupervisoryServiceInterface
 
         private void toolStripButtonFilter_Click(object sender, EventArgs e)
         {
-
+            if (currentTable == Table.Buildings)
+            {
+                BuildingFilterForm buildingFilterForm = new BuildingFilterForm();
+                buildingFilterForm.ShowDialog();
+                if (buildingFilterForm.DialogResult == DialogResult.OK)
+                    ListViewWorker.Set(listView1, currentTable, Filter.filter.Find(Tables.buildings.ToArray()));
+            }
+            if (currentTable == Table.Solutions)
+            {
+                SolutionFilterForm solutionFilterForm = new SolutionFilterForm();
+                solutionFilterForm.ShowDialog();
+                if (solutionFilterForm.DialogResult == DialogResult.OK)
+                    ListViewWorker.Set(listView1, currentTable, Filter.filter.Find(Tables.solutions.ToArray()));
+            }
         }
     }
 }
