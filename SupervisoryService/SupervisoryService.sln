@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupervisoryServiceLibrary",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{0E363B1E-B166-495C-AD3A-C0427CAC31F8}"
 	ProjectSection(SolutionItems) = preProject
+		map.html = map.html
+		map.js = map.js
 		readme.txt = readme.txt
 	EndProjectSection
 EndProject
