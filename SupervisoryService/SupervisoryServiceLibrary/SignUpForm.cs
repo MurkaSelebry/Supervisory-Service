@@ -31,7 +31,11 @@ namespace SupervisoryServiceLibrary
             }
             else if (mode == Mode.Editing)
             {
-                button.Text = "Редактирование существующего  пользователя";
+                if (user.Role == Role.Administrator)
+                    groupBox1.Enabled = false;
+                else
+                    groupBox1.Enabled = true;
+                button.Text = "Редактирование существующего пользователя";
                 this.Text = "Сохранить";
                 textBoxUsername.Text = user.Username;
                 textBoxConfirmation.Text = textBoxPassword.Text = user.Password;
@@ -43,17 +47,14 @@ namespace SupervisoryServiceLibrary
                 if (user.Role == Role.Reader)
                 {
                     radioButton1.Checked = true;
-                    radioButton1.Checked = radioButton2.Checked = true;
                 }
                 if (user.Role == Role.Writer)
                 {
                     radioButton2.Checked = true;
-                    radioButton1.Checked = radioButton2.Checked = true;
                 }
                 if (user.Role == Role.Administrator)
                 {
                     radioButton3.Checked = true;
-                    radioButton1.Checked = radioButton2.Checked = false;
                 }
             }
         }
@@ -63,12 +64,13 @@ namespace SupervisoryServiceLibrary
             {
                 if (textBoxPassword.Text == textBoxConfirmation.Text)
                 {
-                    Tables.users.Add(new User 
-                    { 
+                    Tables.users.Add(new User
+                    {
                         Id = Tables.users.Last().Id + 1,
                         Username = textBoxUsername.Text,
                         Password = textBoxPassword.Text,
-                        Role = Role.Reader, Email = textBoxEmail.Text,
+                        Role = Role.Reader,
+                        Email = textBoxEmail.Text,
                         Phone = textBoxPhone.Text,
                         Surname = textBoxSurname.Text,
                         Name = textBoxName.Text,
@@ -80,7 +82,7 @@ namespace SupervisoryServiceLibrary
                     MessageBox.Show("Пароли не совпадают", string.Empty, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            else if(mode == Mode.Editing)
+            else if (mode == Mode.Editing)
             {
                 if (textBoxPassword.Text == textBoxConfirmation.Text)
                 {

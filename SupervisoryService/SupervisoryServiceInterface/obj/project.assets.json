@@ -2,9 +2,73 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "Syncfusion.Core.WinForms/22.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "22.1.39",
+          "Syncfusion.Shared.Base": "22.1.39"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/Syncfusion.Core.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Core.WinForms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/22.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfInput.WinForms/22.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Core.WinForms": "22.1.39",
+          "Syncfusion.Licensing": "22.1.39",
+          "Syncfusion.Shared.Base": "22.1.39"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/Syncfusion.SfInput.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.SfInput.WinForms.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Shared.Base/22.1.39": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "22.1.39"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SupervisoryServiceLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Syncfusion.Core.WinForms": "22.1.39",
+          "Syncfusion.SfInput.WinForms": "22.1.39"
+        },
         "compile": {
           "bin/placeholder/SupervisoryServiceLibrary.dll": {}
         },
@@ -18,6 +82,108 @@
     }
   },
   "libraries": {
+    "Syncfusion.Core.WinForms/22.1.39": {
+      "sha512": "ecJ5d1X36kdTu7cuPX18Nm0976Gg8wiVYIKR2q2BcDA0hq9A2sRkMtEFdygQh5f/AT/IpE4jNxV9xW4Gkp740A==",
+      "type": "package",
+      "path": "syncfusion.core.winforms/22.1.39",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Syncfusion.Core.WinForms.dll",
+        "lib/net40/Syncfusion.Core.WinForms.xml",
+        "lib/net45/Syncfusion.Core.WinForms.dll",
+        "lib/net45/Syncfusion.Core.WinForms.xml",
+        "lib/net451/Syncfusion.Core.WinForms.dll",
+        "lib/net451/Syncfusion.Core.WinForms.xml",
+        "lib/net46/Syncfusion.Core.WinForms.dll",
+        "lib/net46/Syncfusion.Core.WinForms.xml",
+        "lib/net6.0-windows7.0/Syncfusion.Core.WinForms.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Core.WinForms.xml",
+        "syncfusion.core.winforms.22.1.39.nupkg.sha512",
+        "syncfusion.core.winforms.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Licensing/22.1.39": {
+      "sha512": "M78hnjmYShEJA/G+ZA3taaUCrO+Q23/gb5Yg4OWo1EV/CPF2VBRhhVpJrZdwVYf3llQ7g5fTCcl0lUWf0ivMbw==",
+      "type": "package",
+      "path": "syncfusion.licensing/22.1.39",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.22.1.39.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.SfInput.WinForms/22.1.39": {
+      "sha512": "gYfAmqOKn9flbb1HD65QEW6gY/hLVIiWs1Yck35fu3/ujPFgklDFCavIc7RyNezWN1ERoCuckBs7lMBLGMF7Dw==",
+      "type": "package",
+      "path": "syncfusion.sfinput.winforms/22.1.39",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Syncfusion.SfInput.WinForms.dll",
+        "lib/net40/Syncfusion.SfInput.WinForms.xml",
+        "lib/net45/Syncfusion.SfInput.WinForms.dll",
+        "lib/net45/Syncfusion.SfInput.WinForms.xml",
+        "lib/net451/Syncfusion.SfInput.WinForms.dll",
+        "lib/net451/Syncfusion.SfInput.WinForms.xml",
+        "lib/net46/Syncfusion.SfInput.WinForms.dll",
+        "lib/net46/Syncfusion.SfInput.WinForms.xml",
+        "lib/net6.0-windows7.0/Syncfusion.SfInput.WinForms.dll",
+        "lib/net6.0-windows7.0/Syncfusion.SfInput.WinForms.xml",
+        "syncfusion.sfinput.winforms.22.1.39.nupkg.sha512",
+        "syncfusion.sfinput.winforms.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Shared.Base/22.1.39": {
+      "sha512": "vnoreJtkHqjnWMH15vmiUtuxNbS+asZPKd2uTt/54U1sAmPqMoZAiFXAuxacgxrC3vKu89ClU10afNoQMnYWXw==",
+      "type": "package",
+      "path": "syncfusion.shared.base/22.1.39",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Syncfusion.Shared.Base.dll",
+        "lib/net40/Syncfusion.Shared.Base.xml",
+        "lib/net45/Syncfusion.Shared.Base.dll",
+        "lib/net45/Syncfusion.Shared.Base.xml",
+        "lib/net451/Syncfusion.Shared.Base.dll",
+        "lib/net451/Syncfusion.Shared.Base.xml",
+        "lib/net46/Syncfusion.Shared.Base.dll",
+        "lib/net46/Syncfusion.Shared.Base.xml",
+        "lib/net6.0-windows7.0/Syncfusion.Shared.Base.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Shared.Base.xml",
+        "syncfusion.shared.base.22.1.39.nupkg.sha512",
+        "syncfusion.shared.base.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
     "SupervisoryServiceLibrary/1.0.0": {
       "type": "project",
       "path": "../SupervisoryServiceLibrary/SupervisoryServiceLibrary.csproj",
@@ -26,7 +192,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "SupervisoryServiceLibrary >= 1.0.0"
+      "SupervisoryServiceLibrary >= 1.0.0",
+      "Syncfusion.Core.WinForms >= 22.1.39",
+      "Syncfusion.SfInput.WinForms >= 22.1.39"
     ]
   },
   "packageFolders": {
@@ -71,6 +239,16 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Syncfusion.Core.WinForms": {
+            "target": "Package",
+            "version": "[22.1.39, )"
+          },
+          "Syncfusion.SfInput.WinForms": {
+            "target": "Package",
+            "version": "[22.1.39, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

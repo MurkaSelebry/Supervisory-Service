@@ -43,6 +43,16 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Syncfusion.Core.WinForms": {
+              "target": "Package",
+              "version": "[22.1.39, )"
+            },
+            "Syncfusion.SfInput.WinForms": {
+              "target": "Package",
+              "version": "[22.1.39, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -101,6 +111,16 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Syncfusion.Core.WinForms": {
+              "target": "Package",
+              "version": "[22.1.39, )"
+            },
+            "Syncfusion.SfInput.WinForms": {
+              "target": "Package",
+              "version": "[22.1.39, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

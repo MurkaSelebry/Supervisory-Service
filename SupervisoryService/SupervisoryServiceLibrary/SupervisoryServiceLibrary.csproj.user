@@ -4,13 +4,22 @@
     <Compile Update="BuildingAddForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="BuildingFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="BuildingViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Calendar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SignUpForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SolutionAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SolutionFilterForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SolutionViewForm.cs">

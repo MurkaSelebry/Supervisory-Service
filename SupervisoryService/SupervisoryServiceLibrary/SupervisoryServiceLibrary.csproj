@@ -8,4 +8,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Core.WinForms" Version="22.1.39" />
+    <PackageReference Include="Syncfusion.SfInput.WinForms" Version="22.1.39" />
+  </ItemGroup>
+
 </Project>
