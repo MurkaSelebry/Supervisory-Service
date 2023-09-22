@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pb8s7/sSYbKQD1DwqSTi56Y6rjwLBt5vB0eVIuqV7mXH4b6cA0HWd6Pn3aDC/yEImzxDQCiqV1/8k+SadwU4Nw==",
+  "dgSpecHash": "qWrOflS3x/eCXZlFHunXmcmk3KaQitLxONp1ydtqruawscsMgFK3l1nk1P6Y7dlPKCXiAzgWCngCv6gAylsAtw==",
   "success": true,
-  "projectFilePath": "D:\\Repositories\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
+  "projectFilePath": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\avale1648\\.nuget\\packages\\syncfusion.core.winforms\\22.1.39\\syncfusion.core.winforms.22.1.39.nupkg.sha512",
-    "C:\\Users\\avale1648\\.nuget\\packages\\syncfusion.licensing\\22.1.39\\syncfusion.licensing.22.1.39.nupkg.sha512",
-    "C:\\Users\\avale1648\\.nuget\\packages\\syncfusion.sfinput.winforms\\22.1.39\\syncfusion.sfinput.winforms.22.1.39.nupkg.sha512",
-    "C:\\Users\\avale1648\\.nuget\\packages\\syncfusion.shared.base\\22.1.39\\syncfusion.shared.base.22.1.39.nupkg.sha512"
+    "C:\\Users\\murad\\.nuget\\packages\\syncfusion.core.winforms\\22.1.39\\syncfusion.core.winforms.22.1.39.nupkg.sha512",
+    "C:\\Users\\murad\\.nuget\\packages\\syncfusion.licensing\\22.1.39\\syncfusion.licensing.22.1.39.nupkg.sha512",
+    "C:\\Users\\murad\\.nuget\\packages\\syncfusion.sfinput.winforms\\22.1.39\\syncfusion.sfinput.winforms.22.1.39.nupkg.sha512",
+    "C:\\Users\\murad\\.nuget\\packages\\syncfusion.shared.base\\22.1.39\\syncfusion.shared.base.22.1.39.nupkg.sha512"
   ],
   "logs": []
 }

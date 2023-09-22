@@ -15,6 +15,7 @@ namespace SupervisoryServiceInterface
         public User? me = new User();
         public SignInForm()
         {
+            Tables.init();
             InitializeComponent();
         }
         private void buttonSignIn_Click(object sender, EventArgs e)

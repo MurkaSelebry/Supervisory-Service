@@ -9,14 +9,10 @@
           "Syncfusion.Shared.Base": "22.1.39"
         },
         "compile": {
-          "lib/net6.0-windows7.0/Syncfusion.Core.WinForms.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0-windows7.0/Syncfusion.Core.WinForms.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows7.0/Syncfusion.Core.WinForms.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0-windows7.0/Syncfusion.Core.WinForms.dll": {}
         }
       },
       "Syncfusion.Licensing/22.1.39": {
@@ -36,14 +32,10 @@
           "Syncfusion.Shared.Base": "22.1.39"
         },
         "compile": {
-          "lib/net6.0-windows7.0/Syncfusion.SfInput.WinForms.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0-windows7.0/Syncfusion.SfInput.WinForms.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows7.0/Syncfusion.SfInput.WinForms.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0-windows7.0/Syncfusion.SfInput.WinForms.dll": {}
         }
       },
       "Syncfusion.Shared.Base/22.1.39": {
@@ -52,14 +44,10 @@
           "Syncfusion.Licensing": "22.1.39"
         },
         "compile": {
-          "lib/net6.0-windows7.0/Syncfusion.Shared.Base.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0-windows7.0/Syncfusion.Shared.Base.dll": {}
         },
         "runtime": {
-          "lib/net6.0-windows7.0/Syncfusion.Shared.Base.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0-windows7.0/Syncfusion.Shared.Base.dll": {}
         }
       }
     }
@@ -175,23 +163,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\avale1648\\.nuget\\packages\\": {}
+    "C:\\Users\\murad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositories\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
       "projectName": "SupervisoryServiceLibrary",
-      "projectPath": "D:\\Repositories\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
-      "packagesPath": "C:\\Users\\avale1648\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositories\\TeamDevelopment\\SupervisoryService\\SupervisoryServiceLibrary\\obj\\",
+      "projectPath": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
+      "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\avale1648\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -228,8 +216,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -241,7 +228,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

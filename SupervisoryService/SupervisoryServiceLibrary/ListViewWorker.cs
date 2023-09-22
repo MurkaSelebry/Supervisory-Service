@@ -6,6 +6,8 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Serialization;
+
 namespace SupervisoryServiceLibrary
 {
     public class ListViewWorker
@@ -33,11 +35,16 @@ namespace SupervisoryServiceLibrary
                         listView.Columns.Add("Материал", width);
                         listView.Columns.Add("Этажей", width);
                         listView.Columns.Add("Ответственный, ФИО", width);
-                        foreach (var item in Tables.buildings)
-                        {
-                            string[] strings = new string[] { item.Id.ToString(), item.Adress, item.Cadastral, item.Square.ToString(), item.Date.ToShortDateString(), item.Material, item.Floors.ToString(), item.Responsible };
-                            listView.Items.Add(new ListViewItem(strings));
-                        }
+                        
+                            foreach (var item in Tables.buildings)
+                            {
+                                string[] strings = new string[] { item.Id.ToString(), item.Adress, item.Cadastral, item.Square.ToString(), item.Date.ToShortDateString(), item.Material, item.Floors.ToString(), item.Responsible };
+                                listView.Items.Add(new ListViewItem(strings));
+                              
+                            }
+                        SaveToXml("buildings.xml", Tables.buildings.ToArray());
+                        
+                        
                         break;
                     }
                 //Solution: Id, Title, Date, Responsible, Status;
@@ -56,6 +63,8 @@ namespace SupervisoryServiceLibrary
                             string[] strings = new string[] { item.Id.ToString(), item.Title, item.Date.ToShortDateString(), item.Responsible, item.Status };
                             listView.Items.Add(new ListViewItem(strings));
                         }
+                        SaveToXml("solutions.xml", Tables.solutions.ToArray());
+
                         break;
                     }
                 //User: Id, Username, Password, Role, Email, Phone, Surname, Lastname, Patronymic
@@ -77,10 +86,23 @@ namespace SupervisoryServiceLibrary
                             string[] strings = new string[] { item.Id.ToString(), item.Username, item.Role.ToString(), item.Email, item.Phone, item.Surname, item.Name, item.Patronymic };
                             listView.Items.Add(new ListViewItem(strings));
                         }
+                        SaveToXml("users.xml", Tables.users.ToArray());
+
                         break;
                     }
             }
         }
+        public static void SaveToXml<T>(string myXmlFilePath, T[] table)
+        {
+
+            XmlSerializer serializer = new XmlSerializer(typeof(T[]));
+
+            using (FileStream stream = File.Create(myXmlFilePath))
+            {
+                serializer.Serialize(stream, table);
+            }
+        }
+       
         public static void Set(ListView listView, Table table, object[] items)
         {
             listView.Items.Clear();

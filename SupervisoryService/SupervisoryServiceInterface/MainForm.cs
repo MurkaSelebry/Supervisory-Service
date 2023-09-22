@@ -1,6 +1,8 @@
 using SupervisoryServiceLibrary;
 using System.Data;
 using System.Drawing.Design;
+using System.Xml.Serialization;
+using static System.Windows.Forms.ListView;
 
 namespace SupervisoryServiceInterface
 {
@@ -79,10 +81,15 @@ namespace SupervisoryServiceInterface
         private void buttonAdd_Click(object sender, EventArgs e)
         {
             if (currentTable == Table.Buildings)
+            {
                 new BuildingAddForm(Mode.Adding, new Building()).ShowDialog();
+                //SaveToXml("buildings.xml", Tables.buildings.ToArray());
+                //LoadFromXml("buildings.xml", Tables.buildings.ToArray());
+            }
             else if (currentTable == Table.Solutions)
                 new SolutionAddForm(Mode.Adding, new Solution()).ShowDialog();
             ListViewWorker.Set(listView1, currentTable);
+            
         }
         private void buttonEdit_Click(object sender, EventArgs e)
         {
@@ -159,5 +166,22 @@ namespace SupervisoryServiceInterface
                     ListViewWorker.Set(listView1, currentTable, Filter.filter.Find(Tables.solutions.ToArray()));
             }
         }
+        
+
+
+
+
+        //public void LoadFromXML(string myXmlFilePath)
+        //{
+        //    if (File.Exists(myXmlFilePath))
+        //    {
+        //        XmlSerializer serializer = new XmlSerializer(typeof(ListViewItemCollection));
+
+        //        using (FileStream stream = File.OpenRead(myXmlFilePath))
+        //        {
+        //           // listView1.Items = (ListViewItemCollection)serializer.Deserialize(stream);
+        //        };
+        //    };
+        //}
     }
 }
