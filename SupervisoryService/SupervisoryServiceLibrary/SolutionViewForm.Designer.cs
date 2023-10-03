@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SolutionViewForm));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.labelSolution = new System.Windows.Forms.Label();
             this.labelDate = new System.Windows.Forms.Label();
@@ -90,8 +91,9 @@
             this.Controls.Add(this.labelDate);
             this.Controls.Add(this.labelSolution);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SolutionViewForm";
-            this.Text = "SolutionViewForm";
+            this.Text = "Просмотр";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

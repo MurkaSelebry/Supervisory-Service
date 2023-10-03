@@ -33,11 +33,23 @@ namespace SupervisoryServiceInterface
         private void comboBoxTable_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBoxTable.SelectedIndex == 0)
+            {
                 currentTable = Table.Buildings;
-            else if (comboBoxTable.SelectedIndex == 1)
+                this.Text = "Строительные решения";
+                this.Icon = new Icon("icons/building.ico");
+            }
+            if (comboBoxTable.SelectedIndex == 1)
+            {
                 currentTable = Table.Solutions;
-            else if (comboBoxTable.SelectedIndex == 2)
+                this.Text = "Решения";
+                this.Icon = new Icon("icons/solution.ico");
+            }
+            if (comboBoxTable.SelectedIndex == 2)
+            {
                 currentTable = Table.Users;
+                this.Text = "Пользователи";
+                this.Icon = new Icon("icons/user.ico");
+            }
             if (currentTable == Table.Users)
                 buttonView.Visible = false;
             else

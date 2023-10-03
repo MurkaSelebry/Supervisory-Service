@@ -30,6 +30,7 @@ namespace SupervisoryServiceLibrary
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calendar));
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.labelBuildings = new System.Windows.Forms.Label();
             this.labelSolutions = new System.Windows.Forms.Label();
@@ -90,8 +91,9 @@ namespace SupervisoryServiceLibrary
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.monthCalendar1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Calendar";
-            this.Text = "Calendar";
+            this.Text = "Календарь";
             this.Load += new System.EventHandler(this.Calendar_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

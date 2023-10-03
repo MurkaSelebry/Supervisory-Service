@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BuildingFilterForm));
             this.numericUpDownMinSquare = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownMaxSquare = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
@@ -237,8 +238,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDownMaxSquare);
             this.Controls.Add(this.numericUpDownMinSquare);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BuildingFilterForm";
-            this.Text = "BuildingFilterForm";
+            this.Text = "Фильтры";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMinSquare)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxSquare)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMaxFloors)).EndInit();

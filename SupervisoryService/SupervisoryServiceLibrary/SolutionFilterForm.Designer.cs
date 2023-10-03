@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SolutionFilterForm));
             this.buttonCancel = new System.Windows.Forms.Button();
             this.buttonOk = new System.Windows.Forms.Button();
             this.comboBoxStatus = new System.Windows.Forms.ComboBox();
@@ -59,11 +60,11 @@
             this.buttonOk.UseVisualStyleBackColor = true;
             this.buttonOk.Click += new System.EventHandler(this.buttonOk_Click);
             // 
-            // comboBoxMaterial
+            // comboBoxStatus
             // 
             this.comboBoxStatus.FormattingEnabled = true;
             this.comboBoxStatus.Location = new System.Drawing.Point(15, 105);
-            this.comboBoxStatus.Name = "comboBoxMaterial";
+            this.comboBoxStatus.Name = "comboBoxStatus";
             this.comboBoxStatus.Size = new System.Drawing.Size(156, 23);
             this.comboBoxStatus.TabIndex = 25;
             // 
@@ -131,8 +132,9 @@
             this.Controls.Add(this.dateTimePickerMin);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SolutionFilterForm";
-            this.Text = "SolutionFilterForm";
+            this.Text = "Фильтры";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -25,11 +25,13 @@ namespace SupervisoryServiceLibrary
             this.solution = solution;
             if (action == Mode.Adding)
             {
+                this.Icon = new Icon("icons/add.ico");
                 button.Text = "Добавить";
                 this.Text = "Добавление нового объекта";
             }
             else if (action == Mode.Editing)
             {
+                this.Icon = new Icon("icons/edit.ico");
                 textBoxTitle.Text = solution.Title;
                 richTextBoxDescription.Text = solution.Description;
                 dateTimePicker1.Value = solution.Date;

@@ -1,1 +1,36 @@
-﻿<?xml version="1.0" encoding="utf-8"?><ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><User><Id>1</Id><Username>qwertyAdmin</Username><Password>qwertyAdmin</Password><Role>Administrator</Role><Email>qwerty@qwerty.qwerty</Email><Phone /><Surname /><Name /><Patronymic /></User><User><Id>2</Id><Username>qwertyWriter</Username><Password>qwertyWriter</Password><Role>Writer</Role><Email>qwerty@qwerty.qwerty</Email><Phone /><Surname /><Name /><Patronymic /></User><User><Id>3</Id><Username>qwertyReader</Username><Password>qwertyReader</Password><Role>Reader</Role><Email>qwerty@qwerty.qwerty</Email><Phone /><Surname /><Name /><Patronymic /></User></ArrayOfUser>
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <Id>1</Id>
+    <Username>qwertyAdmin</Username>
+    <Password>qwertyAdmin</Password>
+    <Role>Administrator</Role>
+    <Email>qwerty@qwerty.qwerty</Email>
+    <Phone />
+    <Surname />
+    <Name />
+    <Patronymic />
+  </User>
+  <User>
+    <Id>2</Id>
+    <Username>qwertyWriter</Username>
+    <Password>qwertyWriter</Password>
+    <Role>Writer</Role>
+    <Email>qwerty@qwerty.qwerty</Email>
+    <Phone />
+    <Surname />
+    <Name />
+    <Patronymic />
+  </User>
+  <User>
+    <Id>3</Id>
+    <Username>qwertyReader</Username>
+    <Password>qwertyReader</Password>
+    <Role>Reader</Role>
+    <Email>qwerty@qwerty.qwerty</Email>
+    <Phone />
+    <Surname />
+    <Name />
+    <Patronymic />
+  </User>
+</ArrayOfUser>

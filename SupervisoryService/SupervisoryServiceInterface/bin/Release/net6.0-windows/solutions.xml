@@ -1,1 +1,243 @@
-﻿<?xml version="1.0" encoding="utf-8"?><ArrayOfSolution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Solution><Id>1</Id><Title>Снос здания по адресу: Москва, Пушкина, 1</Title><Description /><Date>2023-09-22T18:47:58.8423987+03:00</Date><Responsible>Всадников Астольф Трапович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>2</Id><Title>Ремонт здания по адресу: Москва, Пушкина, 2</Title><Description /><Date>2023-09-22T18:47:58.8425444+03:00</Date><Responsible>Соколов Гриффит</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>3</Id><Title>Постройка нового здания: Москва, Пушкина, 3</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Дримурров Азриель Азгорович</Responsible><Status>Принято</Status></Solution><Solution><Id>4</Id><Title>Ремонт здания по адресу: Москва, Ленина, 4</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>5</Id><Title>Снос здания по адресу: Москва, Ленина, 5</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>6</Id><Title>Постройка нового здания: Москва, Ленина, 6</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>7</Id><Title>Снос здания по адресу: Москва, Гагарина, 7</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>8</Id><Title>Ремонт здания по адресу: Москва, Гагарина, 8</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>9</Id><Title>Постройка нового здания: Москва, Гагарина, 9</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>10</Id><Title>Ремонт здания по адресу: Москва, Жукова, 10</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>11</Id><Title>Снос здания по адресу: Москва, Жукова, 11</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>12</Id><Title>Постройка нового здания: Москва, Жукова, 12</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>13</Id><Title>Снос здания по адресу: Москва, Красная, 13</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>14</Id><Title>Ремонт здания по адресу: Москва, Красная, 14</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>15</Id><Title>Постройка нового здания: Москва, Красная, 15</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>16</Id><Title>Ремонт здания по адресу: Москва, Зеленая, 16</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>17</Id><Title>Снос здания по адресу: Москва, Зеленая, 17</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>18</Id><Title>Постройка нового здания: Москва, Зеленая, 18</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>19</Id><Title>Снос здания по адресу: Москва, Сиреневая, 19</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>20</Id><Title>Ремонт здания по адресу: Москва, Сиреневая, 20</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>21</Id><Title>Постройка нового здания: Москва, Сиреневая, 21</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>22</Id><Title>Ремонт здания по адресу: Москва, Солнечная, 22</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>23</Id><Title>Снос здания по адресу: Москва, Солнечная, 23</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>24</Id><Title>Постройка нового здания: Москва, Солнечная, 24</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>25</Id><Title>Снос здания по адресу: Москва, Озерная, 25</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>26</Id><Title>Ремонт здания по адресу: Москва, Озерная, 26</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>27</Id><Title>Постройка нового здания: Москва, Озерная, 27</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution><Solution><Id>28</Id><Title>Ремонт здания по адресу: Москва, Речная, 28</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Иванов Иван Иванович</Responsible><Status>Отклонено</Status></Solution><Solution><Id>29</Id><Title>Снос здания по адресу: Москва, Речная, 29</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Петров Петр Петрович</Responsible><Status>Принято</Status></Solution><Solution><Id>30</Id><Title>Постройка нового здания: Москва, Речная, 30</Title><Description /><Date>2023-09-22T18:47:58.8425447+03:00</Date><Responsible>Сидоров Сидор Сидорович</Responsible><Status>На рассмотрении</Status></Solution></ArrayOfSolution>
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSolution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Solution>
+    <Id>1</Id>
+    <Title>Снос здания по адресу: Москва, Пушкина, 1</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8423987+03:00</Date>
+    <Responsible>Всадников Астольф Трапович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>2</Id>
+    <Title>Ремонт здания по адресу: Москва, Пушкина, 2</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425444+03:00</Date>
+    <Responsible>Соколов Гриффит</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>3</Id>
+    <Title>Постройка нового здания: Москва, Пушкина, 3</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Дримурров Азриель Азгорович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>4</Id>
+    <Title>Ремонт здания по адресу: Москва, Ленина, 4</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>5</Id>
+    <Title>Снос здания по адресу: Москва, Ленина, 5</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>6</Id>
+    <Title>Постройка нового здания: Москва, Ленина, 6</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>7</Id>
+    <Title>Снос здания по адресу: Москва, Гагарина, 7</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>8</Id>
+    <Title>Ремонт здания по адресу: Москва, Гагарина, 8</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>9</Id>
+    <Title>Постройка нового здания: Москва, Гагарина, 9</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>10</Id>
+    <Title>Ремонт здания по адресу: Москва, Жукова, 10</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>11</Id>
+    <Title>Снос здания по адресу: Москва, Жукова, 11</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>12</Id>
+    <Title>Постройка нового здания: Москва, Жукова, 12</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>13</Id>
+    <Title>Снос здания по адресу: Москва, Красная, 13</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>14</Id>
+    <Title>Ремонт здания по адресу: Москва, Красная, 14</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>15</Id>
+    <Title>Постройка нового здания: Москва, Красная, 15</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>16</Id>
+    <Title>Ремонт здания по адресу: Москва, Зеленая, 16</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>17</Id>
+    <Title>Снос здания по адресу: Москва, Зеленая, 17</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>18</Id>
+    <Title>Постройка нового здания: Москва, Зеленая, 18</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>19</Id>
+    <Title>Снос здания по адресу: Москва, Сиреневая, 19</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>20</Id>
+    <Title>Ремонт здания по адресу: Москва, Сиреневая, 20</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>21</Id>
+    <Title>Постройка нового здания: Москва, Сиреневая, 21</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>22</Id>
+    <Title>Ремонт здания по адресу: Москва, Солнечная, 22</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>23</Id>
+    <Title>Снос здания по адресу: Москва, Солнечная, 23</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>24</Id>
+    <Title>Постройка нового здания: Москва, Солнечная, 24</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>25</Id>
+    <Title>Снос здания по адресу: Москва, Озерная, 25</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>26</Id>
+    <Title>Ремонт здания по адресу: Москва, Озерная, 26</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>27</Id>
+    <Title>Постройка нового здания: Москва, Озерная, 27</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+  <Solution>
+    <Id>28</Id>
+    <Title>Ремонт здания по адресу: Москва, Речная, 28</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Иванов Иван Иванович</Responsible>
+    <Status>Отклонено</Status>
+  </Solution>
+  <Solution>
+    <Id>29</Id>
+    <Title>Снос здания по адресу: Москва, Речная, 29</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Петров Петр Петрович</Responsible>
+    <Status>Принято</Status>
+  </Solution>
+  <Solution>
+    <Id>30</Id>
+    <Title>Постройка нового здания: Москва, Речная, 30</Title>
+    <Description />
+    <Date>2023-09-22T18:47:58.8425447+03:00</Date>
+    <Responsible>Сидоров Сидор Сидорович</Responsible>
+    <Status>На рассмотрении</Status>
+  </Solution>
+</ArrayOfSolution>

@@ -15,11 +15,13 @@ namespace SupervisoryServiceLibrary
             this.building = building;
             if (action == Mode.Adding)
             {
+                this.Icon = new Icon("icons/add.ico");
                 button.Text = "Добавить";
                 this.Text = "Добавление нового объекта";
             }
             else if (action == Mode.Editing)
             {
+                this.Icon = new Icon("icons/edit.ico");
                 textBoxAdress.Text = building.Adress;
                 textBoxCadastral.Text = building.Cadastral;
                 numericUpDownSquare.Value = (decimal)building.Square;

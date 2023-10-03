@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\SupervisoryServiceInterface.csproj": {}
+    "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\SupervisoryServiceInterface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\SupervisoryServiceInterface.csproj": {
+    "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\SupervisoryServiceInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\SupervisoryServiceInterface.csproj",
+        "projectUniqueName": "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\SupervisoryServiceInterface.csproj",
         "projectName": "SupervisoryServiceInterface",
-        "projectPath": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\SupervisoryServiceInterface.csproj",
-        "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\obj\\",
+        "projectPath": "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\SupervisoryServiceInterface.csproj",
+        "packagesPath": "C:\\Users\\avale1648\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avale1648\\Source\\Repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceInterface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\avale1648\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -28,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj": {
-                "projectPath": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj"
+              "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj": {
+                "projectPath": "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj"
               }
             }
           }
@@ -59,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,25 +72,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj": {
+    "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
         "projectName": "SupervisoryServiceLibrary",
-        "projectPath": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
-        "packagesPath": "C:\\Users\\murad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murad\\Desktop\\RezvanPVO113\\Project\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\obj\\",
+        "projectPath": "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\SupervisoryServiceLibrary.csproj",
+        "packagesPath": "C:\\Users\\avale1648\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\avale1648\\source\\repos\\Supervisory-Service\\SupervisoryService\\SupervisoryServiceLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\murad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\avale1648\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -126,7 +127,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,7 +140,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
